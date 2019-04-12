@@ -1,0 +1,25 @@
+{
+  "name": "Daddy says 'No YouTube!'",
+  "version": "0.1",
+  "description": "Simple YouTube blocker",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.youtube.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "icons": {
+    "16": "images/dsny16.png",
+    "32": "images/dsny32.png",
+    "48": "images/dsny48.png",
+    "128": "images/dsny128.png"
+  },
+  "web_accessible_resources": [
+    "daddy.html"
+  ],
+  "manifest_version": 2
+}
